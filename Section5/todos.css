@@ -1,0 +1,15 @@
+body{
+    background: rgb(230, 255, 242);
+}
+
+li{
+    border: midnightblue 2px solid;
+}
+
+#special{
+    color: rgb(255, 0, 0);
+}
+
+.completed{
+    text-decoration: line-through red;
+}

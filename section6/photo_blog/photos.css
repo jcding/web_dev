@@ -1,0 +1,29 @@
+
+body{
+    font-size: 40px;
+}
+div{
+    float: left;
+    background-color: green;
+    width: 100px;
+    padding: 5px;
+    border: solid black 2px;
+    margin: 1px 1px 1px 1px;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    width: 30%;
+    margin: 1.66% 1.66% 1% 2%;
+    font-size: 150%;
+    padding-bottom: 1%;
+    border-bottom: rgba(0, 0, 0, 0.1) solid 3px;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin: 1.66% 1.66% 1.66% 1.66%;
+}

@@ -1,0 +1,47 @@
+body{
+    font-size: 80px;
+}
+h1{
+    /* border: 5px solid red; */
+    /* margin: 0 auto 30px auto;
+    font-size: 80px;
+    width: 400px; */
+    font-size: 80px;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: 100px;
+}
+
+
+
+.topMid{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.midMid{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.midLeft{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.midRight{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.botMid{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}

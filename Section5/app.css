@@ -1,0 +1,25 @@
+body{
+
+    /* background: url(https://cdn.dribbble.com/users/5031/screenshots/3713646/attachments/832536/wallpaper_mikael_gustafsson.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: moccasin;
+
+}
+h1{
+    color: red;
+    /* border-color:purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 2px solid purple;
+}
+
+li{
+    color: rgba(255, 0, 234, 1);
+}
+
+
+h4{
+    color: #5171a5;
+    background: rgba(204, 255, 217);
+}

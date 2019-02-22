@@ -1,0 +1,13 @@
+body{
+    font-size: 15px;
+}
+
+p{
+  border-top: 2px solid rgb(53, 124, 255);
+  border-bottom: 2px solid rgb(255, 53, 53);
+  width: 20%;
+  padding: 30px;
+
+  font-size: 100%;
+  margin: 10px auto auto auto;
+}
