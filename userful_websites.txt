@@ -1,0 +1,3 @@
+glyphicons: https://fontawesome.com/?from=io
+beautiful pictures: https://unsplash.com/
+fonts: https://fonts.google.com/
