@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Color Guessing Game</title>
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class = "jumbotron">
             <h1 class="display-4">Color guessing game</h1>
             <p class="lead"> </p>
@@ -17,21 +17,23 @@
         </div>
 
 
-    </div>
-    
+    <!-- </div> -->
     <div class="container">
-        <button id = "restart" class = "btn btn-primary btn-lg">Restart</button>   <span id = "correctness_text"> </span>
+        <div class="controls"><button id = "restart" class = "btn btn-primary btn-lg">Restart</button>   <span id = "correctness_text"> </span> </div>
+    </div>
+    <div class="container">
+        
         <div class="row">
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
+            <div id="colors"class="col"></div>
+            <div id="colors"class="col"></div>
+            <div id="colors"class="col"></div>
 
         </div>
 
         <div id = "row2" class="row">
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
-            <div id="colors"class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pink"></div>
+            <div id="colors"class="col"></div>
+            <div id="colors"class="col"></div>
+            <div id="colors"class="col"></div>
             
         </div>
 
@@ -41,6 +43,7 @@
 
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 </body>
 </html>

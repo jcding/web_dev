@@ -42,14 +42,15 @@ function yeet(rando){
         console.log(colors[rando].style.backgroundColor);
         console.log(guessColor);
         if(colors[rando].style.backgroundColor === guessColor){
-            correctness_text.textContent = "CORRECT";
+            correctness_text.textContent = "Correct";
             for(i = 0; i < 6; i++){
                 colors[i].style.backgroundColor = guessColor;
+                colors[i].style.visibility = "visible";
             }
         }
         else{
-            correctness_text.textContent = "WRONG";
-            colors[rando].style.backgroundColor = "white";
+            correctness_text.textContent = "Wrong";
+            colors[rando].style.visibility = "hidden";
         }
         
     });
