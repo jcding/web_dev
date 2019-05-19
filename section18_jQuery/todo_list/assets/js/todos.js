@@ -41,7 +41,11 @@ $("input[type='text']").keypress(function(event){
         var todoText = $(this).val();
         $(this).val("");
         //console.log($(this).val());
-        $("ul").append("<li class> <span>X</span> " + todoText +"</li>");
+        $("ul").append("<li> <span><i class='far fa-trash-alt'></i></span> " + todoText +"</li>");
     }
 
+})
+
+$(".fa-plus").click(function(){
+    $("input[type='text']").fadeToggle();
 })
